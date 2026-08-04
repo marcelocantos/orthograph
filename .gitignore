@@ -1,0 +1,44 @@
+# Build
+/orthograph
+/bin/
+/dist/
+*.exe
+*.test
+*.out
+coverage.out
+coverage.html
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Local / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Go
+vendor/
+
+# iOS
+ios/build/
+ios/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Node (if web preview added later)
+node_modules/
+
+# Local runtime data (never commit)
+.orthograph-data/
